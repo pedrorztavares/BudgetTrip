@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  AZURE_WEBAPP_NAME: budgettrip-frontend-gsdrb0eyh7gtgcfk.spaincentral-01
+  AZURE_WEBAPP_NAME: budgettrip-frontend
   NODE_VERSION: "22"
 
 jobs:
