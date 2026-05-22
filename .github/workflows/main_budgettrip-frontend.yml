@@ -29,7 +29,7 @@ jobs:
       - name: Build frontend
         run: npm run build
         env:
-          VITE_API_BASE_URL: http://localhost:5000
+          VITE_API_BASE_URL: http://budgettrip-backend-217804.fwa7aubqbbcpcwat.spaincentral.azurecontainer.io:5000
 
       - name: Copy package files into dist
         run: |
